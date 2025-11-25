@@ -92,24 +92,24 @@ export default function ContactForm() {
                     >
                         <form ref={form} onSubmit={sendEmail} className="space-y-6">
                             <div>
-                                <label htmlFor="user_name" className="block text-sm font-medium text-gray-400 mb-2">
+                                <label htmlFor="name" className="block text-sm font-medium text-gray-400 mb-2">
                                     Name
                                 </label>
                                 <input
                                     type="text"
-                                    name="user_name"
+                                    name="name"
                                     required
                                     className="w-full bg-brand-black border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-yellow focus:ring-1 focus:ring-brand-yellow transition-colors"
                                     placeholder="Your Name"
                                 />
                             </div>
                             <div>
-                                <label htmlFor="user_email" className="block text-sm font-medium text-gray-400 mb-2">
+                                <label htmlFor="email" className="block text-sm font-medium text-gray-400 mb-2">
                                     Email
                                 </label>
                                 <input
                                     type="email"
-                                    name="user_email"
+                                    name="email"
                                     required
                                     className="w-full bg-brand-black border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-yellow focus:ring-1 focus:ring-brand-yellow transition-colors"
                                     placeholder="your@email.com"
