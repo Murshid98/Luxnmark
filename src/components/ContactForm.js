@@ -12,10 +12,10 @@ export default function ContactForm() {
         e.preventDefault();
         setStatus("sending");
 
-        // Replace these with your actual EmailJS credentials
-        const SERVICE_ID = "YOUR_SERVICE_ID";
-        const TEMPLATE_ID = "YOUR_TEMPLATE_ID";
-        const PUBLIC_KEY = "YOUR_PUBLIC_KEY";
+        // EmailJS credentials
+        const SERVICE_ID = "service_7ogrb5f";
+        const TEMPLATE_ID = "service_7ogrb5f";
+        const PUBLIC_KEY = "r3qdpwG3Z_RIN13BP";
 
         emailjs
             .sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
