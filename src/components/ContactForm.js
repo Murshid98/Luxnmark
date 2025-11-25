@@ -14,7 +14,7 @@ export default function ContactForm() {
 
         // EmailJS credentials
         const SERVICE_ID = "service_7ogrb5f";
-        const TEMPLATE_ID = "service_7ogrb5f";
+        const TEMPLATE_ID = "template_m8wsaha";
         const PUBLIC_KEY = "r3qdpwG3Z_RIN13BP";
 
         emailjs
