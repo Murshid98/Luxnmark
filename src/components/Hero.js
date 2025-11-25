@@ -15,7 +15,9 @@ export default function Hero() {
                     transition={{ duration: 0.8 }}
                     className="text-4xl sm:text-6xl md:text-8xl font-extrabold text-brand-yellow tracking-tight mb-6"
                 >
-                    PREMIUM CAR PERFUME
+                    LUXNMARK
+                    <br />
+                    CAR PERFUME
                 </motion.h1>
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}
